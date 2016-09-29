@@ -8,3 +8,4 @@ Ejercicios realizados en el curso de Fullstack 3 - Coderhouse
 - Clase 05 - Utilización de los métodos parallel() y series() de async.js ("manopla.js" simula el comportamiento de ambos métodos pero sin requerir dicha librería)
 - Clase 06 - Chat construido sobre el módulo Net
 - Clase 07 - TODO list y web server utilizando el módulo Http
+- Clase 08 - Idem Clase 07 pero agregando html y algunas mejoras
