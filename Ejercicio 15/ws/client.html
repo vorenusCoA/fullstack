@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test WebSockets</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var socket = new WebSocket('ws://localhost:5000')
+
+		socket.onopen = function (evt){
+			window.setInterval(function (){
+				socket.send('ping del cliente ' + new Date())
+			}, 1000) 
+
+			socket.onmessage = function (evt){
+				console.log(evt.data)
+			}
+		}
+		
+	</script>
+</body>
+</html>
