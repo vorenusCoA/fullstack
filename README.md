@@ -16,3 +16,4 @@ Ejercicios realizados en el curso de Fullstack 3 - Coderhouse
 - Ejercicio 13 - Se mejora el TP final agregando MongoDB
 - Ejercicio 14 - Se mejora el TP final agregando Mongoose
 - Ejercicio 15 - Web Sockets. Ejemplos con Web sockets nativos y con la librería Socket.io
+- Ejercicio 16 - Chat con Socket.io
